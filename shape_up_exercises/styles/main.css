@@ -4,5 +4,56 @@ body{
 
 a{
     font-weight: bold;
+
 }
 
+section a{
+    color: maroon;
+    
+}
+
+section a:focus{
+    color: steelblue;
+}
+
+section a:hover{
+    color: steelblue;
+}
+
+img{float: left;}
+
+header h1{
+    font-size: 300%;
+    font-style: italic;
+    color: steelblue;
+
+}
+
+img{clear: right;}
+
+aside h2{
+    color: maroon;
+    line-height: 1.5;
+}
+
+aside a{
+    color: steelblue;
+    
+}
+
+aside a:focus{
+    color: maroon;
+}
+
+aside a:hover{
+    color: maroon;
+}
+
+aside ul{
+    line-height: 1.5;
+}
+
+footer{
+    font-size: 0.6em;
+    text-align: center;
+}
