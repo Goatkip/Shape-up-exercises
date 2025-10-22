@@ -1,20 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+html{
+height: 100%;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    width: 700px;
+    width: 100%;
     border: solid steelblue;
     margin: auto;
-    box-shadow: 3px 3px 10px 3px black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+
+}
+
+header img{
+width: 100%;
+    max-width: 120px;
+    min-width: 100px; 
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-grow: 1;
 }
 
 p{
     padding-bottom: 1em;
-    font-size: 90%;
+    font-size: 1.8vw;
 }
 
 blockquote{
@@ -50,26 +71,27 @@ section a:hover{
 img{float: left;}
 
 header h1{
-    font-size: 300%;
+    font-size: 4vw;
     font-style: italic;
     color: steelblue;
-    margin-bottom: 0px;
 }
 
 header h2{
-    margin-top: 5px;
+    margin-top: 1%;
 }
 
 header {
     background-image: linear-gradient(to bottom, white 0%, lightsteelblue);
-    border-bottom: 3px solid steelblue;
+    border-bottom: .2em solid steelblue;
     padding: 1em;
 }
 
 aside{
     border: 2px solid steelblue;
-    border-radius: 20px;
+    border-radius: 2em;
     margin: 1em;
+    width: 125%;
+    line-height: 200%;
 }
 
 aside h2{
@@ -96,9 +118,10 @@ aside ul{
 }
 
 footer{
-    font-size: .8em;
+    font-size: .8vw;
     text-align: center;
     color: white;
     background-color: steelblue;
     padding:1.5em;
+
 }
