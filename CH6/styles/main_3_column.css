@@ -1,41 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-html{
-height: 100%;
-}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     border: solid steelblue;
     margin: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5vw;
-
 }
 
 header img{
-width: 100%;
-    max-width: 120px;
-    min-width: 100px; 
+    img { width: clamp(100px, 100%, 120px); }
 }
 
 main {
     display: flex;
     width: 100%;
     align-items: flex-start;
-    flex-grow: 1;
 }
-
+h1{
+    font-size: 2vw;
+}
+h2{
+    font-size: 1.7vw;
+    line-height: 100%;
+}
+h3{
+    font-size: 1.4vw;
+}
 p{
     padding-bottom: 1em;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
 }
 
 blockquote{
@@ -90,7 +87,7 @@ aside{
     border: 2px solid steelblue;
     border-radius: 2em;
     margin: 1em;
-    width: 125%;
+    width: 55%;
     line-height: 200%;
 }
 
@@ -104,6 +101,17 @@ aside a{
     
 }
 
+aside h3{
+    padding-left: 10%;
+
+}
+
+aside p{
+    padding-bottom: 1em;
+    padding-left: 10%;
+    font-size: 1.2vw;
+}
+
 aside a:focus{
     color: maroon;
 }
@@ -115,6 +123,7 @@ aside a:hover{
 aside ul{
     line-height: 1.5;
     margin: 0 0 1em 2.5em;
+    font-size: 1vw;
 }
 
 footer{
