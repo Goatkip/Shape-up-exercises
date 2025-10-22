@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    border: solid steelblue;
+    margin: auto;
+    box-shadow: 3px 3px 10px 3px black;
+}
+
+p{
+    padding-bottom: 1em;
+    font-size: 90%;
+}
+
+blockquote{
+    margin-left: 1.5em;
+}
+
+section {
+    margin: 1em;
+}
+
+a{
+    font-weight: bold;
+
+}
+
+section h1,section h2,section h3{
+    padding-bottom: .5em;
+}
+
+section a{
+    color: maroon;
+    
+}
+
+section a:focus{
+    color: steelblue;
+}
+
+section a:hover{
+    color: steelblue;
+}
+
+img{float: left;}
+
+header h1{
+    font-size: 300%;
+    font-style: italic;
+    color: steelblue;
+    margin-bottom: 0px;
+}
+
+header h2{
+    margin-top: 5px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, white 0%, lightsteelblue);
+    border-bottom: 3px solid steelblue;
+    padding: 1em;
+}
+
+aside{
+    border: 2px solid steelblue;
+    border-radius: 20px;
+    margin: 1em;
+}
+
+aside h2{
+    margin: 1em 0 .5em 1em;
+    color: maroon;
+}
+
+aside a{
+    color: steelblue;
+    
+}
+
+aside a:focus{
+    color: maroon;
+}
+
+aside a:hover{
+    color: maroon;
+}
+
+aside ul{
+    line-height: 1.5;
+    margin: 0 0 1em 2.5em;
+}
+
+footer{
+    font-size: .8em;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    padding:1.5em;
+}
