@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-size: 1.5vw;
+    font-size: 1em;
 
 }
 
@@ -24,6 +24,59 @@ header img{
 width: 100%;
     max-width: 120px;
     min-width: 100px; 
+}
+
+.menu li:has(.submenu){
+    position: relative;
+}
+
+.menu li:has(.submenu):hover>.submenu{
+    display: block;
+}
+
+.navbar{
+    background-color: steelblue;
+    color: white;
+}
+
+ul.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    left: 0;
+    background-color: steelblue;
+    width:10.9em;
+}
+
+.submenu a:hover{
+    text-decoration: underline;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding:1em;
+}
+
+nav li{
+    list-style: none;
+    padding: .1em .1em;
+}
+
+.current{
+    margin: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border: .1em solid white;
+    padding: .1em 1em;
+    border-radius: .5em;
 }
 
 main {
